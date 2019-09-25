@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/* Variables Start */
+:root {
+  /* Colors */
+  --green-color: #7ACC2D;
+  --white-color: white;
+  --black-color: #313337;
+
+  /* Tipografia */
+  --normal: 12px;
+
+  /* Espaciado */
+  --space: 10px;
+  /* Box shadow */
+  --box: 0 0 1px #c1bcbc;
+}
+
+/* Variables End */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* --------------------------------------NavBar */
+
+nav {
+  display: flex;
+  background: var(--green-color);
+  padding: var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+
+}
+
+nav li a {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: var(--white-color)
+}
+
+/* ----------------------------------------End NavBar */
+
+/* ----------------------------------------Start Main Section */
+.main_section {
+  padding: 10%;
+  text-align: center;
+}
+
+.products {
+  background-image: url('../images/curve.webp');
+  max-height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  display: flex;
+}
+
+.product {
+  margin-top: -240px;
+  padding: var(--space);
+}
+
+.product .content {
+  background: var(--white-color);
+  padding: 15px;
+  box-shadow: var(--box);
+}
+
+.image-content {
+  text-align: center;
+}
+
+.main-button {
+  background-color: var(--green-color);
+  width: 100%;
+  padding: var(--space);
+  color: var(--white-color);
+  font-size: var(--normal);
+  border: 0;
+  border-radius: 2px;
+}
+
+.main-button:hover {
+  cursor: pointer;
+  background: #5e9e22;
+}
+
+/* ----------------------------------------End Main Section */
+
+/* --------------------------------------- Start Section Description */
+.sectionDescription {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imageContainer {
+  max-width: 200px;
+  /* text-align: center; */
+}
+
+.imageContainer img {
+  height: 180px;
+  text-align: center;
+}
+
+.cardsDescription {
+  padding: 50px;
+}
+
+.contentDescription {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contentDescription h3 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.contentDescription p {
+  font-size: 13px;
+  color: var(--black-color)
+}
+
+/* --------------------------------------- End Section Description */
