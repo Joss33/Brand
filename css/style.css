@@ -13,7 +13,7 @@
   /* Espaciado */
   --space: 10px;
   /* Box shadow */
-  --box: 0 0 1px #c1bcbc;
+  --box: 0 0 6px 0px #b1adad;
 }
 
 /* Variables End */
@@ -112,25 +112,29 @@ nav li a:hover {
   align-items: center;
 }
 
-.imageContainer {
-  max-width: 200px;
-  /* text-align: center; */
+.cardsDescription {
+  width: 300px;
+  height: 420px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.imageContainer img {
-  height: 180px;
+.imageContainer {
+  width: 200px;
+  height: 150px;
   text-align: center;
 }
 
-.cardsDescription {
-  padding: 50px;
+.imageContainer img {
+  width: 150px;
 }
 
 .contentDescription {
   width: 200px;
   display: flex;
   flex-direction: column;
-
 }
 
 .contentDescription h3 {
@@ -144,3 +148,64 @@ nav li a:hover {
 }
 
 /* --------------------------------------- End Section Description */
+
+/*---------------------------------------- Start Mentions Start */
+.titleMentions {
+  color: var(--black-color);
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.mentionsContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.cardsMentions {
+  margin: 5px;
+  width: 280px;
+  height: 220px;
+  box-shadow: 0 0 2px 0px #b1adad;
+}
+
+.imageUser {
+  width: 280px;
+  height: 110px;
+}
+
+.imageUser img {
+  width: 280px;
+  height: 110px;
+}
+
+.containerUsers {
+  padding: 5px;
+}
+
+.cardsMentions h2 {
+  color: var(--black-color);
+}
+
+/*---------------------------------------- End Mentions Start */
+
+/* ---------------------------------------Footer Start */
+footer {
+  background: #313337;
+  height: 50px;
+}
+
+.ContentFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.ContentFooter h2 {
+  color: white;
+  font-size: 12px;
+}
+
+/* ---------------------------------------Footer End */
