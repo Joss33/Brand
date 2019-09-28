@@ -1,0 +1,16 @@
+body {
+  background: #2E3334;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.contentPaypal a {
+  color: #7acc2d;
+}

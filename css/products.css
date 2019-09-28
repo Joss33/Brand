@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/* Variables Start */
+:root {
+  /* Colors */
+  --green-color: #7ACC2D;
+  --white-color: white;
+  --black-color: #313337;
+
+  /* Tipografia */
+  --normal: 12px;
+
+  /* Espaciado */
+  --space: 10px;
+  /* Box shadow */
+  --box: 0 0 6px 0px #b1adad;
+}
+
+.row .col-12 h1 {
+  color: var(--black-color);
+}
+
+.containerImageProducts {
+  text-align: center;
+}
+
+.containerImageProducts img {
+  height: 200px;
+  text-align: center;
+}
+
+.row .col-8 h2,
+p {
+  padding-top: 40px;
+  color: var(--black-color);
+}
